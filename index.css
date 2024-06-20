@@ -1,0 +1,192 @@
+*{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    margin: 0px;
+}
+
+.navbar{
+    margin-left: 10px;
+}
+.maindiv{
+    background-color:rgb(209, 250, 229);
+    width: 100%;
+    height: 665px;
+}
+
+.webdev{
+    background-color:rgb(209, 250, 229);
+    margin-left: 25px;
+    margin-top: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-size: larger;
+}
+
+.images:hover{
+    transform: scale(1.3);
+    cursor: pointer;
+}
+
+.container{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.navkeys{
+    display: flex;
+    margin: 32px;
+    margin-left: 70px;
+    margin-top: 43px;
+    font-size: large;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    flex-wrap: nowrap;
+}
+
+.box{
+    width: 60px;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+a:hover{
+    cursor: pointer;
+    color:rgb(78, 147, 9);
+    text-decoration:underline;
+}
+
+.largectn{
+    margin-left: 36px;
+    margin-top: 200px;
+}
+
+.name{
+    font-size: 4em;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.designation{
+    font-size: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: rgb(71, 71, 93);
+}
+
+.object{
+    padding-top: 0px;
+    margin-top: 3px;
+    font-size: 18px;
+    letter-spacing: 0.025em;
+}
+
+.img{
+    padding-left: 600px;
+    margin-top: -350px;
+}
+
+.secdiv{
+    padding-top: 50px;
+    padding-left: 40px;
+    background-color: rgb(250, 250, 250);
+    height: 525px;
+    padding-right: 10x;
+}
+
+.tech{
+    font-weight:normal;
+}
+
+.subdiv{
+    display: flex;
+    margin-top: 75px;
+    flex-wrap: nowrap;
+}
+
+hr{
+    width: 97%;
+    margin-right: 100px;
+    border-color: rgb(209, 223, 218)
+}
+
+.lighter{
+    color: rgb(101, 100, 100);
+    line-height: 1.8;
+    letter-spacing: 0.025rem;
+}
+
+.thirddiv{
+    display: flex;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    padding-right: 50px;
+    flex-wrap: nowrap;
+}
+
+.code{
+    font-weight: normal;
+}
+
+.line{
+    color: rgb(80, 80, 80);
+    line-height: 2;
+    margin-top: 2rem;
+}
+
+.fourthdiv{
+    padding-top: 30px;
+    padding-left: 35px;
+    background-color:rgb(209, 250, 229);
+    padding-bottom: 120px;
+
+}
+
+.web{
+    font-weight: 500;
+    color: rgb(35, 35, 35);
+}
+
+.containertwo{
+    display: flex;
+    justify-content: center;
+    margin-right: 30px;
+    flex-wrap: nowrap;
+}
+
+.card{
+    background-color: white;
+    width: 400px;
+    height: 530px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.card-image{
+    height: 200px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+
+.head{
+    padding-top: 60px;
+    padding-left: 30px;
+    font-weight: 500;
+}
+
+.card:hover{
+    background-color: rgb(100, 100, 100);
+    color: whitesmoke;
+    cursor: pointer;
+    transform:scale(1.03);
+    transition: all 1s ease;
+}
+
+.para{
+    padding-left: 30px;
+    letter-spacing: 0.025rem;
+    line-height: 35px;
+}
